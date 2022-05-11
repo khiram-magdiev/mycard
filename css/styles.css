@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	height: 100vh;
+}
+
+svg {
+	fill: none;
+}
+
+#container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 65px;
+}
+
+.card {
+	border: 1px solid #000;
+	border-radius: 40px;
+	width: 838px;
+	padding: 36px 50px 30px 50px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+.card-img {
+	width: 290px;
+	height: 290px;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+	display: block;
+	margin-bottom: 15px;
+	align-items: center;
+}
+
+	.card-img picture {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+
+}
+
+.card-name {
+	font-size: 35px;
+	font-weight: normal;
+	text-align: left;
+}
+
+.card-position {
+	font-size: 25px;
+	text-align: center;
+	font-weight: normal;
+	text-align: left;
+	margin-bottom: 35px;
+}
+
+.card-info {
+	width: 50%;
+	
+}
+
+.card-social {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.card-social__icon {
+	display: inline-block;
+	margin-bottom: 35px;
+	text-decoration: none;
+}
+
+.card-social__icon svg {
+	width: 25px;
+	height: 25px;
+}
+
+/*============================= Media ==========================*/
+
+@media screen and (max-with: 380px) {
+	.container {
+	display: flex;
+	align-items: center;
+}
+}
+
+@media screen and (max-width: 380px) {
+	.card {
+	width: 355px;
+	height: 694px;
+	border: 1px solid #000;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 45px;
+}
+}
+
+
+
+@media screen and (max-width: 380px) {
+	.card-img picture {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: 18px;
+	display: flex;
+	justify-content: center;
+
+}
+}
+
+@media screen and (max-width: 380px) {
+	.card-name {
+	font-size: 35px;
+	line-height: 41px;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 8px;
+}
+}
+
+@media screen and (max-width: 380px) {
+	.card-position {
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 35px;
+}
+}
+
+@media screen and (max-width: 380px) {
+	.card-info {
+		width: 100%;
+	height: 50%;
+	
+}
+}
+
+@media screen and (max-width: 380px) {
+	.card-social {
+	display: flex;
+	flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 380px) {
+	.card-social__icon {
+	width: 50%;
+	display: block;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+}
+
+@media screen and (max-width: 380px) {
+	.card-social__icon span {
+	display: none;
+}
+}
+
+@media screen and (max-width: 380px) {
+	.card-social__icon svg {
+	width: 70px;
+	height: 70px;
+}
+}
